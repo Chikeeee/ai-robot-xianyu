@@ -1,0 +1,21 @@
+.env
+secrets/
+data/xianyu.db
+data/xianyu.db-wal
+data/xianyu.db-shm
+data/xianyu_device.json
+.venv/
+__pycache__/
+*.pyc
+*.log
+.logs/
+.pytest_cache/
+eval/reports/
+data/*.csv
+data/uploads/
+.idea/
+.vscode/
+.DS_Store
+
+# 闲鱼同步游标（本机运行时状态，不需要入库）
+data/xianyu_sync_pts.json
